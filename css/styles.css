@@ -1,3 +1,11 @@
+.navigation {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+
 form {
     max-width: 454px;
     padding: 10px 20px;
