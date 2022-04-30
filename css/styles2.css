@@ -99,6 +99,16 @@ a, a:hover, a:focus, a:active {
     color: inherit;
 }
 
+a {
+    font-family: 'Rubik', sans-serif;  
+    
+    transition: font-size 250ms;
+}
+
+a:hover, a:focus {
+    font-size: 110%;
+}
+
 .enlarge {
     font-family: 'Rubik', sans-serif;
     transition: font-size 250ms;
