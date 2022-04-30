@@ -13,8 +13,8 @@
   <!--LOGO AND COLLAPSIBLE NAVBAR-->
   <nav class="navbar navbar-expand-sm navbar-light">
     <div class="container-fluid">
-      <a href="/index.html" class="navbar-brand">
-        <img alt="Logo to go home" src="/img/logo.png" width="50" height="50">
+      <a href="index.html" class="navbar-brand">
+        <img alt="Logo to go home" src="img/logo.png" width="50" height="50">
       </a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,16 +23,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav ms-2 mb-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" aria-label="Home page" href="/index.html">Home</a>
+            <a class="nav-link active" aria-current="page" aria-label="Home page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" aria-label="Writing page" href="#">Writing</a>
+            <a class="nav-link active" aria-current="page" aria-label="Writing page" href="writing.html">Writing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" aria-label="Art page" href="/art.html">Art</a>
+            <a class="nav-link active" aria-current="page" aria-label="Art page" href="art.html">Art</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" aria-label="Contact page" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" aria-label="Contact page" href="contact.html">Contact</a>
           </li>
         </ul>
 
@@ -42,14 +42,17 @@
 
   
   <!--HEADER WITH BIG WORDS-->
-  <div class="container">
-    <div class="row justify-content-center">
-      <h1>Maia Sheets</h1>
+  <header>
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1>Maia Sheets</h1>
+      </div>
+      <div class="row justify-content-center">
+        <h3>Writer. Artist. Student. Visionary. Innovator.</h3>
+      </div>
     </div>
-    <div class="row justify-content-center">
-      <h3>Writer. Artist. Student. Visionary. Innovator.</h3>
-    </div>
-  </div>
+  </header>
+
       
   <!--MAIN CONTENT SECTIONS-->
   <div class="container-fluid new-section home-content">
@@ -61,28 +64,32 @@
         <div class="content-box blue-gradient float-start">
           
           <h2>My Writing</h2>
-          <p>I'm an adult science fiction and fantasy writer, but I dabble in various genres. Check it out!</p>
+          <p class="home-card-text">I'm an adult science fiction and fantasy writer, but I dabble in various genres. Check it out!</p>
 
-          <button type="button" class="btn btn-dark btn-lg" ><a href="/art.html">View samples &nbsp; ></a></button>
+          <a href="writing.html"><button type="button" class="btn btn-dark btn-lg" ><div class="enlarge">View samples &nbsp; ></div></button></a>
 
         </div>
       </div>
       <div class="col-lg-4 col-sm-0">
-        <div class="icon-box"></div>
+        <div class="icon-box disappear">
+          <img src="img/openbook.png" alt="Open book">
+        </div>
       </div>
     </div>
 
     <!--ART-->
     <div class="row new-section">
       <div class="col-lg-4 col-sm-0">
-        <div class="icon-box icon-box-bot"></div>
+        <div class="icon-box icon-box-bot disappear">
+          <img src="img/art.png" alt="Paintbrush">
+        </div>
       </div>
       <div class="col-lg-7 col-sm-12">
         <div class="content-box purple-gradient float-end">
           
           <h2>My Art</h2>
-          <p>Digital, sketching, cartoons... any medium, you name it! Open to commissions.</p>
-          <button type="button" class="btn btn-dark btn-lg" href="/art.html">View gallery &nbsp; ></button>
+          <p class="home-card-text">Digital, sketching, cartoons... any medium, you name it! Open to commissions.</p>
+          <a href="art.html"><button type="button" class="btn btn-dark btn-lg"><div class="enlarge">View gallery &nbsp; ></div></button></a>
 
         </div>
       </div>
@@ -93,7 +100,7 @@
 
   <!--FOOTER-->
   <footer class="container-fluid new-section">
-    <p class="footer-text">All content owned by Maia Sheets.</p>
+    <p class="footer-text">All content owned by Maia Sheets. <a href="https://www.flaticon.com/free-icons/question" title="book and art icons" class="footer-text" target="_blank" rel="noopener noreferrer"> Question icons created by Arafat Uddin - Flaticon.</a></p>
   </footer>
 
   
